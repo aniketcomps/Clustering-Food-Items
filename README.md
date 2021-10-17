@@ -1,0 +1,2 @@
+# Clustering-Food-Items
+Classified a database of food items into appropriate segments (veg, non-veg, drinks, etc) using an unsupervised approach.  I have used Word2Vec, SpaCy, GloVe and cosine similarity matrices.  Example input: (.csv file) Item_name: Paneer Wrap, Whiskey, Chicken Tikka  Example output: (.csv file) Item_name &amp; label: Paneer Wrap veg, Whiskey alcohol, Chicken Tikka non-veg  The actual database contains around 30000 rows.
